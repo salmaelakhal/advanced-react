@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #f9f9f9;
+    min-height: 100vh;
+    margin-left: 0;
+    padding: 0;
+    width: 100%; /* Assurez-vous que ce conteneur prend toute la largeur */
+  }
+  
+  .form-box {
+    background: white;
+    padding: 40px 0; /* Enlève le padding horizontal */
+    border-radius: 0;
+    width: 800px; /* Augmente la largeur du formulaire */
+    box-shadow: none;
+  }
+  
+  .form-title {
+    position: relative;
+    color: #5b2a86;
+    font-size: 48px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .form-separator {
+    border: none;
+    border-top: 1px solid #5b2a86;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-submit {
+    background-color: #5b2a86;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #4a2270;
+  }
+ 
+  
+ 
