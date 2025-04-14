@@ -6,11 +6,17 @@ import { useForm } from "react-hook-form";
 const Form = () => {
 
   const {register, handleSubmit} = useForm({
-    defaultValues: {
-      fullName: 'Abir',
-      age: 21,
-      email: 'abir@gmail.com',
-      country: 'Maroc',
+    defaultValues: async () => {
+      const response = await fetch('https://jsonplaceholder.typicode.com/users/1')
+      const user = await response.json()
+      console.log(user);
+      
+     return {
+       fullName: user.name,
+      // age: parseInt(Math.random()*50),
+      email: user.email,
+      // country: user.address.city,
+     }
     }
   });
   const submitForm = (data) => {
