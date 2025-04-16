@@ -38,7 +38,6 @@ const Form = () => {
 
   const {
     errors,
-    isSubmitted,
     isValid,
     dirtyFields,
     submitCount,
