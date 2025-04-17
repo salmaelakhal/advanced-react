@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Form from './react-hook-form/Form.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TodoList from './use-api/Todos.jsx';
+import TodoList from './api-fetch-axios/Todos.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,5 +14,6 @@ createRoot(document.getElementById('root')).render(
 
     {/* <TodoList/> */}
     <TodoList/>
+
   </StrictMode>,
 )

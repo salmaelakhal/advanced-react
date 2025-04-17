@@ -1,0 +1,29 @@
+{
+    "todos" : [
+        {
+            "id": 1,
+            "title": "delectus aut autem",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "title": "delectus aut autem",
+            "completed": true
+        },
+        {
+            "id": 3,
+            "title": "lorem aut autem",
+            "completed": false
+        } ,
+        {
+            "id": 2,
+            "title": "delectus aut autem",
+            "completed": true
+        },
+        {
+            "id": 3,
+            "title": "lorem aut autem",
+            "completed": false
+        }
+    ]
+}

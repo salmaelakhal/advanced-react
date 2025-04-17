@@ -63,7 +63,7 @@ export default function TodoList() {
                     todo.completed ? "success" : "danger"
                   }`}
                 >
-                  &nbsp;
+                  &nbsp; 
                 </span>
               </td>
             </tr>
