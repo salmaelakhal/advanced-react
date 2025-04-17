@@ -11,7 +11,7 @@ function TodoList() {
             <th>#id</th>
             <th>Title</th>
             <th>Completed</th>
-          </tr>
+          </tr> 
         </thead>
 
         <tbody>
